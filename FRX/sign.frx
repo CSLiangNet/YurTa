@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/08/2016 17:02:27" ReportInfo.Modified="09/09/2016 14:24:52" ReportInfo.CreatorVersion="2014.4.4.0">
+  <Dictionary/>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" FirstPageSource="15" OtherPagesSource="15" Watermark.Enabled="true" Watermark.Text="Made By JiaSheng 2016/09/09" Watermark.TextFill.Color="40, 0, 0, 0">
+    <ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="557.55">
+      <SubreportObject Name="Subreport1" Top="538.65" Width="94.5" Height="18.9" ReportPage="Page2"/>
+      <TextObject Name="Text2" Left="94.5" Top="321.3" Width="869.4" Height="217.35" Text="&#13;&#10;核准開班文號: 新竹縣政府&#13;&#10;&#13;&#10;訓練期間: 105.10.04-105.10.06&#13;&#10;&#13;&#10;訓練地點:新竹縣竹北市縣政五街32巷8號 &#13;&#10;&#13;&#10;         " VertAlign="Center" Font="標楷體, 20pt"/>
+      <TableObject Name="Table1" Left="94.5" Top="66.15" Width="869.4" Height="226.8" Border.Lines="All">
+        <TableColumn Name="Column1" Width="173.88"/>
+        <TableColumn Name="Column2" Width="173.88"/>
+        <TableColumn Name="Column3" Width="173.88"/>
+        <TableColumn Name="Column4" Width="173.88"/>
+        <TableColumn Name="Column5" Width="173.88"/>
+        <TableRow Name="Row1" Height="45.36">
+          <TableCell Name="Cell1" Text="台灣省工商安全衛生協會" HorzAlign="Center" VertAlign="Center" Font="標楷體, 36pt" ColSpan="2" RowSpan="5"/>
+          <TableCell Name="Cell2" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell3" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell4" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell5" Font="SimSun, 9pt"/>
+        </TableRow>
+        <TableRow Name="Row2" Height="45.36">
+          <TableCell Name="Cell6" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell7" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell8" Text="第10517	  期&#13;&#10;&#13;&#10;特定化學物質作業主管訓練班學員名冊" HorzAlign="Center" VertAlign="Center" Font="標楷體, 20pt" ColSpan="3" RowSpan="3"/>
+          <TableCell Name="Cell9" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell10" Font="SimSun, 9pt"/>
+        </TableRow>
+        <TableRow Name="Row3" Height="45.36">
+          <TableCell Name="Cell11" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell12" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell13" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell14" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell15" Font="SimSun, 9pt"/>
+        </TableRow>
+        <TableRow Name="Row4" Height="45.36">
+          <TableCell Name="Cell16" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell17" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell18" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell19" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell20" Font="SimSun, 9pt"/>
+        </TableRow>
+        <TableRow Name="Row5" Height="45.36">
+          <TableCell Name="Cell21" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell22" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell23" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell24" Font="SimSun, 9pt"/>
+          <TableCell Name="Cell25" Font="SimSun, 9pt"/>
+        </TableRow>
+      </TableObject>
+    </ReportTitleBand>
+  </ReportPage>
+  <ReportPage Name="Page2" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" FirstPageSource="15" OtherPagesSource="15" Watermark.Enabled="true" Watermark.Text="Made by JiaSheng 20160909" Watermark.Font="標楷體, 48pt, style=Bold" Watermark.TextFill.Color="40, 128, 0, 128" Watermark.ShowImageOnTop="true">
+    <DataBand Name="Data1" Top="42.51" Width="1047.06" Height="37.8" Border.Lines="All" CanGrow="true" CanShrink="true">
+      <TextObject Name="no" Width="94.5" Height="37.8" Border.Lines="All" Text="[sign.Number]" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+      <TextObject Name="birth" Left="207.9" Width="103.95" Height="37.8" Border.Lines="All" Text="[sign.sign_birth]" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+      <TextObject Name="name" Left="94.5" Width="113.4" Height="37.8" Border.Lines="All" Text="[sign.sign_name]" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+      <TextObject Name="idno" Left="311.85" Width="94.5" Height="37.8" Border.Lines="All" Text="[sign.sign_member_idno]" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+      <TextObject Name="job2" Left="406.35" Width="75.6" Height="37.8" Border.Lines="All" Text="[sign.sign_job2]" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+      <TextObject Name="org" Left="481.95" Width="122.85" Height="37.8" Border.Lines="All" Text="[sign.sign_org]" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+      <TextObject Name="home_adds" Left="604.8" Width="198.45" Height="37.8" Border.Lines="All" Text="[sign.home_adds]&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+      <TextObject Name="mobil" Left="803.25" Width="103.95" Height="37.8" Border.Lines="All" Text="[sign.sign_mobil]&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+      <TextObject Name="memo" Left="907.2" Width="141.75" Height="37.8" Border.Lines="All" Text="[sign.sign_meno]" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+      <DataHeaderBand Name="DataHeader1" Width="1047.06" Height="37.8" CanGrow="true" CanShrink="true" StartNewPage="true" KeepWithData="true" RepeatOnEveryPage="true">
+        <TextObject Name="Text3" Width="94.5" Height="37.8" Border.Lines="All" Text="序號" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+        <TextObject Name="Text5" Left="207.9" Width="103.95" Height="37.8" Border.Lines="All" Text="出生日期" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+        <TextObject Name="Text4" Left="94.5" Width="113.4" Height="37.8" Border.Lines="All" Text="姓名" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+        <TextObject Name="Text6" Left="311.85" Width="94.5" Height="37.8" Border.Lines="All" Text="身份證字號" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+        <TextObject Name="Text7" Left="406.35" Width="75.6" Height="37.8" Border.Lines="All" Text="學歷" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+        <TextObject Name="Text8" Left="481.95" Width="122.85" Height="37.8" Border.Lines="All" Text="服務單位" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+        <TextObject Name="Text9" Left="604.8" Width="198.45" Height="37.8" Border.Lines="All" Text="連絡地址&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+        <TextObject Name="Text19" Left="803.25" Width="103.95" Height="37.8" Border.Lines="All" Text="電話&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+        <TextObject Name="Text20" Left="907.2" Width="141.75" Height="37.8" Border.Lines="All" Text="備註&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="標楷體, 12pt"/>
+      </DataHeaderBand>
+    </DataBand>
+  </ReportPage>
+</Report>
